@@ -11,7 +11,7 @@ const BirthdayDisplay = ({ currentBirthdayIndex, totalBirthdays }) => {
     'Vous ne vivrez jamais si vous cherchez à éviter la souffrance et le chagrin.',
     'La vie est comme une bicyclette, pour garder l’équilibre il faut avancer.',
     'Dans la vie on ne fait pas ce que l’on veut mais on est responsable de ce que l’on est.',
-    // Ajoutez autant de citations que vous le souhaitez ici
+   
   ];
 
   useEffect(() => {
