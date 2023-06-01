@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+}
+
+.right-section {
+  background-color: white;
+  width: 50%;
+}
+.left-section {
+  background-color: #DF80AC;;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 81px 172px 120px 170px;  
+}
+
+.birthday-name {
+  position: absolute;
+  width: 701px;
+  height: 92px;
+  left: 32px;
+  top: 714px;
+
+  font-family: 'HWT Arabesque';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 95px;
+  line-height: 114px;
+  letter-spacing: 0.035em;
+
+  color: #000000;
+}

@@ -1,0 +1,43 @@
+.life-line {
+  margin-top: 40px; /* Ajouter cette ligne */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.life-line-card {
+  width: 800px; 
+  height: 600px; 
+}
+  .life-line img {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .progress-bar {
+    width: 200px;
+    height: 20px;
+    background-color: lightgray;
+    margin-top: 10px;
+  }
+  
+  .progress {
+    width: 0%;
+    height: 100%;
+    background-color: #DF80AC;
+    transition: width 1s ease-in-out;
+  }
+  .progress-bar {
+    position: relative;
+  }
+  
+  .progress-start {
+    position: absolute;
+    left: 0;
+  }
+  
+  .progress-end {
+    position: absolute;
+    right: 0;
+  }
+  

@@ -1,0 +1,15 @@
+.birthday-card {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 137px; /* Ajouter cette ligne */
+  }
+  
+  .birthday-card h1 {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
